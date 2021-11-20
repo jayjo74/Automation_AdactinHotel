@@ -1,0 +1,29 @@
+1. Create project
+2. Download TestNG and Selenium-java
+3. Save java relate value in FrameworkConstants file
+4. Save any other input value in properties file
+5. AssertJ - kind like TestNG Assertion function but more easy than TestNG. add dependency 
+		   -  	<!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+				<dependency>
+    				<groupId>org.assertj</groupId>
+   					<artifactId>assertj-core</artifactId>
+    				<version>3.19.0</version>
+   					 <scope>test</scope>
+				</dependency>
+		   
+6. DataProvider - 2D object array is not always the return type of data provider 
+	
+	object[][] --> first dimension, how many iteration you want to run this test
+				   second dimension, how many parameters you want to feed to your test method
+				   	
+7. Take a screenshot as base64  --> Attach to report (Most recommended way)
+		base64 --> encoded string
+		
+8. Issue in between base64 and Extent reports --> sometimes i can see broken base64 image in Extent report. if open in Eclipse, will be happen this kind issue.
+	Copy this report and past it in other place and open with browser.
+
+9. DataProvider use Excel
+
+10. Test execution handling use Excel
+
+11. if we have to click pretty similar object, use Dynamic Locator
