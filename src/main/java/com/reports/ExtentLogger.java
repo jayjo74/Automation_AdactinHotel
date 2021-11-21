@@ -8,7 +8,7 @@ import com.utils.ScreenshotUtils;
 
 public final class ExtentLogger {
 
-	/*
+	/**
 	* Use it for Logger message
 	* */
 

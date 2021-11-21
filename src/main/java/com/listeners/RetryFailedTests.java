@@ -11,7 +11,7 @@ public class RetryFailedTests implements IRetryAnalyzer {
 	private int count=0;
 	private int retries =1;
 	
-	/*
+	/**
 	* If test method failed, run one more time.
 	* Step - 1. Check 'retryfailedtests' value from config.properties file
 	* 		 2. if 'yes' and test case failed, will run one more time.

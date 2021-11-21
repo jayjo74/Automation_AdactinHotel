@@ -17,8 +17,11 @@ public class JsonUtils {
 
     private static Map<String, String> CONFIGMAP = new HashMap<>();
 
-    //Converting all property data to Hashmap - it is more fast
-    //When it start the test, at first it will put all data in Hashmap
+    /**
+     * Converting all property data to Hashmap - it is more fast
+     * When it start the test, at first it will put all data in Hashmap
+     */
+
     static {
         try {
             CONFIGMAP = new ObjectMapper().readValue(new File(FrameworkConstants.getJsonConfigPath()), HashMap.class);

@@ -12,16 +12,15 @@ public class BaseTest {
 
     protected BaseTest(){}
 
-    /*
+    /**
     * When we want to handle browser from config.properties, use this one
     */
-
 //    @BeforeMethod
 //    protected void setUp(Method m) throws Exception {
 //        Driver.initDriver(PropertyUtils.get(ConfigProperties.BROWSER));
 //    }
 
-    /*
+    /**
      * When we want to handle browser from Excel file in 'DATA' sheet, use this one
      */
     @SuppressWarnings("unchecked")

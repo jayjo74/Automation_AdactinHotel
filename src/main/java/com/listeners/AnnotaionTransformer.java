@@ -10,7 +10,7 @@ import com.utils.DataProviderUtils;
 
 public class AnnotaionTransformer implements IAnnotationTransformer{
 
-	/*
+	/**
 	* All of test method will have same testNG annotation
 	* EX)
 	@Test(dataProvider = "getData", dataProviderClass = DataProviderUtils.class, retryAnalyzer = RetryFailedTests.class)

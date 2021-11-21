@@ -13,7 +13,7 @@ import com.utils.ExcelUtils;
 
 public class MethodInterceptor implements IMethodInterceptor{
 
-	/*
+	/**
 	*It will check Excel file(testdata) RUNMANAGER sheet and
 	* 	- if testname match with test method will check 'execute' column value.
 	*   - if 'execute' column is 'yes', will run the test.

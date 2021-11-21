@@ -4,8 +4,11 @@ import org.openqa.selenium.WebDriver;
 
 public final class DriverManager {
 
-	//Nobody extend this class - secure code
-	//Nobody can create this object outside of this class
+	/**
+	 * Nobody can extend this class - secure code
+	 * Nobody can create this object outside of this class
+	 */
+
 	private DriverManager() {
 		
 	}

@@ -19,9 +19,12 @@ public final class PropertyUtils {
     private static Properties property = new Properties();
     private static final Map<String, String> CONFIGMAP = new HashMap<String, String>();
 
-    //Converting all property data to Hashmap - it is more fast
-    //When it start the test, at first it will put all data in Hashmap
-    //in static block, have to use try catch, not customize throw error
+    /**
+     * Converting all property data to Hashmap - it is more fast
+     * When it start the test, at first it will put all data in Hashmap
+     * in static block, have to use try catch, not customize throw error
+     */
+
     static {
         try(FileInputStream file = new FileInputStream(FrameworkConstants.getConfigFilePath())) {
             property.load(file);
